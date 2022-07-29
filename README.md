@@ -1,12 +1,7 @@
-# Vue 3 project + library integration issue
+# Vue 3 project + library integration
 
-I have created a project and a library. When trying to include the library in project I get this error:
+Example Vue project & library integration.
 
-`runtime-core.esm-bundler.js:38 [Vue warn]: Invalid VNode type: Symbol() (symbol)
-at <VJstree ref="release" datz= [{…}] >
-at <App>`
-
-Research online seems to indicate that this error is from running multiple Vue instances, but I'm not sure how to fix the problem. 
 ## Project Setup
 
 First enter example-library and follow README

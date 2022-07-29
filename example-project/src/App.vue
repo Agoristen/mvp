@@ -3,7 +3,7 @@
     <div class="tree-container">
 
       <v-jstree ref="release"
-                :datz="data"
+                :data="data"
       ></v-jstree>
 
     </div>

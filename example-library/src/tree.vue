@@ -8,6 +8,6 @@
         name: 'VJstree',
         props: {
           data: {type: Array},
-        }
+        },
     }
 </script>
