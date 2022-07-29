@@ -3,6 +3,9 @@ var webpack = require('webpack')
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
+  externals: {
+    vue: 'vue',
+  },
   mode : process.env.NODE_ENV,
   entry: './app.js',
   output: {
